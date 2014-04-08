@@ -19,6 +19,16 @@
 		AB3B77F418F4ABBE0016DD42 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB3B77DC18F4ABBE0016DD42 /* UIKit.framework */; };
 		AB3B77FC18F4ABBE0016DD42 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB3B77FA18F4ABBE0016DD42 /* InfoPlist.strings */; };
 		AB3B77FE18F4ABBE0016DD42 /* augmentedPianoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3B77FD18F4ABBE0016DD42 /* augmentedPianoTests.m */; };
+		AB3B780818F4ABD30016DD42 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB3B780718F4ABD30016DD42 /* opencv2.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		AB3B780A18F4AC460016DD42 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB3B780918F4AC460016DD42 /* Storyboard.storyboard */; };
+		AB3B780D18F4ACEA0016DD42 /* APViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = AB3B780C18F4ACEA0016DD42 /* APViewController.mm */; };
+		AB3B780F18F4B0480016DD42 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB3B780E18F4B0480016DD42 /* AVFoundation.framework */; };
+		AB3B781118F4B0670016DD42 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB3B781018F4B0670016DD42 /* AssetsLibrary.framework */; };
+		AB3B781318F4B09B0016DD42 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB3B781218F4B09B0016DD42 /* Accelerate.framework */; };
+		AB3B781818F4B0C00016DD42 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB3B781418F4B0C00016DD42 /* CoreImage.framework */; };
+		AB3B781918F4B0C00016DD42 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB3B781518F4B0C00016DD42 /* CoreMedia.framework */; };
+		AB3B781A18F4B0C00016DD42 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB3B781618F4B0C00016DD42 /* CoreVideo.framework */; };
+		AB3B781B18F4B0C00016DD42 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB3B781718F4B0C00016DD42 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +58,17 @@
 		AB3B77F918F4ABBE0016DD42 /* augmentedPianoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "augmentedPianoTests-Info.plist"; sourceTree = "<group>"; };
 		AB3B77FB18F4ABBE0016DD42 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AB3B77FD18F4ABBE0016DD42 /* augmentedPianoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = augmentedPianoTests.m; sourceTree = "<group>"; };
+		AB3B780718F4ABD30016DD42 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		AB3B780918F4AC460016DD42 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		AB3B780B18F4ACEA0016DD42 /* APViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APViewController.h; sourceTree = "<group>"; };
+		AB3B780C18F4ACEA0016DD42 /* APViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = APViewController.mm; sourceTree = "<group>"; };
+		AB3B780E18F4B0480016DD42 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		AB3B781018F4B0670016DD42 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		AB3B781218F4B09B0016DD42 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		AB3B781418F4B0C00016DD42 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		AB3B781518F4B0C00016DD42 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		AB3B781618F4B0C00016DD42 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		AB3B781718F4B0C00016DD42 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,9 +76,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB3B781818F4B0C00016DD42 /* CoreImage.framework in Frameworks */,
+				AB3B781918F4B0C00016DD42 /* CoreMedia.framework in Frameworks */,
+				AB3B781A18F4B0C00016DD42 /* CoreVideo.framework in Frameworks */,
+				AB3B781B18F4B0C00016DD42 /* QuartzCore.framework in Frameworks */,
 				AB3B77DB18F4ABBE0016DD42 /* CoreGraphics.framework in Frameworks */,
+				AB3B781318F4B09B0016DD42 /* Accelerate.framework in Frameworks */,
+				AB3B781118F4B0670016DD42 /* AssetsLibrary.framework in Frameworks */,
+				AB3B780818F4ABD30016DD42 /* opencv2.framework in Frameworks */,
 				AB3B77DD18F4ABBE0016DD42 /* UIKit.framework in Frameworks */,
 				AB3B77D918F4ABBE0016DD42 /* Foundation.framework in Frameworks */,
+				AB3B780F18F4B0480016DD42 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +125,14 @@
 		AB3B77D718F4ABBE0016DD42 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AB3B781418F4B0C00016DD42 /* CoreImage.framework */,
+				AB3B781518F4B0C00016DD42 /* CoreMedia.framework */,
+				AB3B781618F4B0C00016DD42 /* CoreVideo.framework */,
+				AB3B781718F4B0C00016DD42 /* QuartzCore.framework */,
+				AB3B781218F4B09B0016DD42 /* Accelerate.framework */,
+				AB3B781018F4B0670016DD42 /* AssetsLibrary.framework */,
+				AB3B780E18F4B0480016DD42 /* AVFoundation.framework */,
+				AB3B780718F4ABD30016DD42 /* opencv2.framework */,
 				AB3B77D818F4ABBE0016DD42 /* Foundation.framework */,
 				AB3B77DA18F4ABBE0016DD42 /* CoreGraphics.framework */,
 				AB3B77DC18F4ABBE0016DD42 /* UIKit.framework */,
@@ -107,10 +144,13 @@
 		AB3B77DE18F4ABBE0016DD42 /* augmentedPiano */ = {
 			isa = PBXGroup;
 			children = (
+				AB3B780918F4AC460016DD42 /* Storyboard.storyboard */,
 				AB3B77E718F4ABBE0016DD42 /* APAppDelegate.h */,
 				AB3B77E818F4ABBE0016DD42 /* APAppDelegate.m */,
 				AB3B77EA18F4ABBE0016DD42 /* Images.xcassets */,
 				AB3B77DF18F4ABBE0016DD42 /* Supporting Files */,
+				AB3B780B18F4ACEA0016DD42 /* APViewController.h */,
+				AB3B780C18F4ACEA0016DD42 /* APViewController.mm */,
 			);
 			path = augmentedPiano;
 			sourceTree = "<group>";
@@ -192,6 +232,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Jonathan Howard";
 				TargetAttributes = {
+					AB3B77D418F4ABBE0016DD42 = {
+						DevelopmentTeam = M5939A5TEH;
+					};
 					AB3B77EF18F4ABBE0016DD42 = {
 						TestTargetID = AB3B77D418F4ABBE0016DD42;
 					};
@@ -222,6 +265,7 @@
 			files = (
 				AB3B77E318F4ABBE0016DD42 /* InfoPlist.strings in Resources */,
 				AB3B77EB18F4ABBE0016DD42 /* Images.xcassets in Resources */,
+				AB3B780A18F4AC460016DD42 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB3B77E518F4ABBE0016DD42 /* main.m in Sources */,
+				AB3B780D18F4ACEA0016DD42 /* APViewController.mm in Sources */,
 				AB3B77E918F4ABBE0016DD42 /* APAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,10 +405,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "augmentedPiano/augmentedPiano-Prefix.pch";
 				INFOPLIST_FILE = "augmentedPiano/augmentedPiano-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -373,10 +427,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "augmentedPiano/augmentedPiano-Prefix.pch";
 				INFOPLIST_FILE = "augmentedPiano/augmentedPiano-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
