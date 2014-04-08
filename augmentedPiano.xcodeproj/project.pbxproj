@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB3B77D918F4ABBE0016DD42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB3B77D818F4ABBE0016DD42 /* Foundation.framework */; };
+		AB3B77DB18F4ABBE0016DD42 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB3B77DA18F4ABBE0016DD42 /* CoreGraphics.framework */; };
+		AB3B77DD18F4ABBE0016DD42 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB3B77DC18F4ABBE0016DD42 /* UIKit.framework */; };
+		AB3B77E318F4ABBE0016DD42 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB3B77E118F4ABBE0016DD42 /* InfoPlist.strings */; };
+		AB3B77E518F4ABBE0016DD42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3B77E418F4ABBE0016DD42 /* main.m */; };
+		AB3B77E918F4ABBE0016DD42 /* APAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3B77E818F4ABBE0016DD42 /* APAppDelegate.m */; };
+		AB3B77EB18F4ABBE0016DD42 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB3B77EA18F4ABBE0016DD42 /* Images.xcassets */; };
+		AB3B77F218F4ABBE0016DD42 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB3B77F118F4ABBE0016DD42 /* XCTest.framework */; };
+		AB3B77F318F4ABBE0016DD42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB3B77D818F4ABBE0016DD42 /* Foundation.framework */; };
+		AB3B77F418F4ABBE0016DD42 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB3B77DC18F4ABBE0016DD42 /* UIKit.framework */; };
+		AB3B77FC18F4ABBE0016DD42 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB3B77FA18F4ABBE0016DD42 /* InfoPlist.strings */; };
+		AB3B77FE18F4ABBE0016DD42 /* augmentedPianoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3B77FD18F4ABBE0016DD42 /* augmentedPianoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB3B77F518F4ABBE0016DD42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB3B77CD18F4ABBE0016DD42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB3B77D418F4ABBE0016DD42;
+			remoteInfo = augmentedPiano;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB3B77D518F4ABBE0016DD42 /* augmentedPiano.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = augmentedPiano.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB3B77D818F4ABBE0016DD42 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AB3B77DA18F4ABBE0016DD42 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AB3B77DC18F4ABBE0016DD42 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AB3B77E018F4ABBE0016DD42 /* augmentedPiano-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "augmentedPiano-Info.plist"; sourceTree = "<group>"; };
+		AB3B77E218F4ABBE0016DD42 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AB3B77E418F4ABBE0016DD42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB3B77E618F4ABBE0016DD42 /* augmentedPiano-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "augmentedPiano-Prefix.pch"; sourceTree = "<group>"; };
+		AB3B77E718F4ABBE0016DD42 /* APAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APAppDelegate.h; sourceTree = "<group>"; };
+		AB3B77E818F4ABBE0016DD42 /* APAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APAppDelegate.m; sourceTree = "<group>"; };
+		AB3B77EA18F4ABBE0016DD42 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AB3B77F018F4ABBE0016DD42 /* augmentedPianoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = augmentedPianoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB3B77F118F4ABBE0016DD42 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AB3B77F918F4ABBE0016DD42 /* augmentedPianoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "augmentedPianoTests-Info.plist"; sourceTree = "<group>"; };
+		AB3B77FB18F4ABBE0016DD42 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AB3B77FD18F4ABBE0016DD42 /* augmentedPianoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = augmentedPianoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB3B77D218F4ABBE0016DD42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB3B77DB18F4ABBE0016DD42 /* CoreGraphics.framework in Frameworks */,
+				AB3B77DD18F4ABBE0016DD42 /* UIKit.framework in Frameworks */,
+				AB3B77D918F4ABBE0016DD42 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB3B77ED18F4ABBE0016DD42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB3B77F218F4ABBE0016DD42 /* XCTest.framework in Frameworks */,
+				AB3B77F418F4ABBE0016DD42 /* UIKit.framework in Frameworks */,
+				AB3B77F318F4ABBE0016DD42 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB3B77CC18F4ABBE0016DD42 = {
+			isa = PBXGroup;
+			children = (
+				AB3B77DE18F4ABBE0016DD42 /* augmentedPiano */,
+				AB3B77F718F4ABBE0016DD42 /* augmentedPianoTests */,
+				AB3B77D718F4ABBE0016DD42 /* Frameworks */,
+				AB3B77D618F4ABBE0016DD42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB3B77D618F4ABBE0016DD42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB3B77D518F4ABBE0016DD42 /* augmentedPiano.app */,
+				AB3B77F018F4ABBE0016DD42 /* augmentedPianoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB3B77D718F4ABBE0016DD42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB3B77D818F4ABBE0016DD42 /* Foundation.framework */,
+				AB3B77DA18F4ABBE0016DD42 /* CoreGraphics.framework */,
+				AB3B77DC18F4ABBE0016DD42 /* UIKit.framework */,
+				AB3B77F118F4ABBE0016DD42 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB3B77DE18F4ABBE0016DD42 /* augmentedPiano */ = {
+			isa = PBXGroup;
+			children = (
+				AB3B77E718F4ABBE0016DD42 /* APAppDelegate.h */,
+				AB3B77E818F4ABBE0016DD42 /* APAppDelegate.m */,
+				AB3B77EA18F4ABBE0016DD42 /* Images.xcassets */,
+				AB3B77DF18F4ABBE0016DD42 /* Supporting Files */,
+			);
+			path = augmentedPiano;
+			sourceTree = "<group>";
+		};
+		AB3B77DF18F4ABBE0016DD42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB3B77E018F4ABBE0016DD42 /* augmentedPiano-Info.plist */,
+				AB3B77E118F4ABBE0016DD42 /* InfoPlist.strings */,
+				AB3B77E418F4ABBE0016DD42 /* main.m */,
+				AB3B77E618F4ABBE0016DD42 /* augmentedPiano-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB3B77F718F4ABBE0016DD42 /* augmentedPianoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB3B77FD18F4ABBE0016DD42 /* augmentedPianoTests.m */,
+				AB3B77F818F4ABBE0016DD42 /* Supporting Files */,
+			);
+			path = augmentedPianoTests;
+			sourceTree = "<group>";
+		};
+		AB3B77F818F4ABBE0016DD42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB3B77F918F4ABBE0016DD42 /* augmentedPianoTests-Info.plist */,
+				AB3B77FA18F4ABBE0016DD42 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB3B77D418F4ABBE0016DD42 /* augmentedPiano */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB3B780118F4ABBE0016DD42 /* Build configuration list for PBXNativeTarget "augmentedPiano" */;
+			buildPhases = (
+				AB3B77D118F4ABBE0016DD42 /* Sources */,
+				AB3B77D218F4ABBE0016DD42 /* Frameworks */,
+				AB3B77D318F4ABBE0016DD42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = augmentedPiano;
+			productName = augmentedPiano;
+			productReference = AB3B77D518F4ABBE0016DD42 /* augmentedPiano.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB3B77EF18F4ABBE0016DD42 /* augmentedPianoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB3B780418F4ABBE0016DD42 /* Build configuration list for PBXNativeTarget "augmentedPianoTests" */;
+			buildPhases = (
+				AB3B77EC18F4ABBE0016DD42 /* Sources */,
+				AB3B77ED18F4ABBE0016DD42 /* Frameworks */,
+				AB3B77EE18F4ABBE0016DD42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB3B77F618F4ABBE0016DD42 /* PBXTargetDependency */,
+			);
+			name = augmentedPianoTests;
+			productName = augmentedPianoTests;
+			productReference = AB3B77F018F4ABBE0016DD42 /* augmentedPianoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB3B77CD18F4ABBE0016DD42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AP;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Jonathan Howard";
+				TargetAttributes = {
+					AB3B77EF18F4ABBE0016DD42 = {
+						TestTargetID = AB3B77D418F4ABBE0016DD42;
+					};
+				};
+			};
+			buildConfigurationList = AB3B77D018F4ABBE0016DD42 /* Build configuration list for PBXProject "augmentedPiano" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AB3B77CC18F4ABBE0016DD42;
+			productRefGroup = AB3B77D618F4ABBE0016DD42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB3B77D418F4ABBE0016DD42 /* augmentedPiano */,
+				AB3B77EF18F4ABBE0016DD42 /* augmentedPianoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB3B77D318F4ABBE0016DD42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB3B77E318F4ABBE0016DD42 /* InfoPlist.strings in Resources */,
+				AB3B77EB18F4ABBE0016DD42 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB3B77EE18F4ABBE0016DD42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB3B77FC18F4ABBE0016DD42 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB3B77D118F4ABBE0016DD42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB3B77E518F4ABBE0016DD42 /* main.m in Sources */,
+				AB3B77E918F4ABBE0016DD42 /* APAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB3B77EC18F4ABBE0016DD42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB3B77FE18F4ABBE0016DD42 /* augmentedPianoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB3B77F618F4ABBE0016DD42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB3B77D418F4ABBE0016DD42 /* augmentedPiano */;
+			targetProxy = AB3B77F518F4ABBE0016DD42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB3B77E118F4ABBE0016DD42 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB3B77E218F4ABBE0016DD42 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AB3B77FA18F4ABBE0016DD42 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB3B77FB18F4ABBE0016DD42 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB3B77FF18F4ABBE0016DD42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB3B780018F4ABBE0016DD42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB3B780218F4ABBE0016DD42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "augmentedPiano/augmentedPiano-Prefix.pch";
+				INFOPLIST_FILE = "augmentedPiano/augmentedPiano-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AB3B780318F4ABBE0016DD42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "augmentedPiano/augmentedPiano-Prefix.pch";
+				INFOPLIST_FILE = "augmentedPiano/augmentedPiano-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AB3B780518F4ABBE0016DD42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/augmentedPiano.app/augmentedPiano";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "augmentedPiano/augmentedPiano-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "augmentedPianoTests/augmentedPianoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AB3B780618F4ABBE0016DD42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/augmentedPiano.app/augmentedPiano";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "augmentedPiano/augmentedPiano-Prefix.pch";
+				INFOPLIST_FILE = "augmentedPianoTests/augmentedPianoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB3B77D018F4ABBE0016DD42 /* Build configuration list for PBXProject "augmentedPiano" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB3B77FF18F4ABBE0016DD42 /* Debug */,
+				AB3B780018F4ABBE0016DD42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB3B780118F4ABBE0016DD42 /* Build configuration list for PBXNativeTarget "augmentedPiano" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB3B780218F4ABBE0016DD42 /* Debug */,
+				AB3B780318F4ABBE0016DD42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AB3B780418F4ABBE0016DD42 /* Build configuration list for PBXNativeTarget "augmentedPianoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB3B780518F4ABBE0016DD42 /* Debug */,
+				AB3B780618F4ABBE0016DD42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB3B77CD18F4ABBE0016DD42 /* Project object */;
+}
