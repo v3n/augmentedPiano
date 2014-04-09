@@ -37,11 +37,12 @@ Mat dst, detected_edges;
     self.videoCamera = [[CvVideoCamera alloc] initWithParentView:iv];
     self.videoCamera.delegate = self;
     self.videoCamera.defaultAVCaptureDevicePosition = AVCaptureDevicePositionBack;
-    self.videoCamera.defaultAVCaptureSessionPreset = AVCaptureSessionPreset640x480;
-    self.videoCamera.defaultAVCaptureVideoOrientation = AVCaptureVideoOrientationLandscapeRight;
+    self.videoCamera.defaultAVCaptureSessionPreset = AVCaptureSessionPresetiFrame960x540;
     self.videoCamera.defaultFPS = 30;
     self.videoCamera.grayscaleMode = NO;
     [self.videoCamera start];
+    
+    [self.videoCamera adjustLayoutToInterfaceOrientation:self.interfaceOrientation];
 }
 
 - (void)didReceiveMemoryWarning
@@ -59,7 +60,7 @@ Mat dst, detected_edges;
     cvtColor(image, image_copy, CV_BGR2GRAY);
     
     /// Reduce noise with a kernel 3x3
-    GaussianBlur(image_copy, detected_edges, cv::Size(1,1), 2, 2);
+    GaussianBlur(image_copy, detected_edges, cv::Size(3,3), 2, 2);
     
     /// Canny detector
     Canny( detected_edges, detected_edges, 25, 50, 3);
