@@ -53,6 +53,26 @@ Mat dst, detected_edges;
 
 #ifdef __cplusplus
 
+void debugSquares( std::vector<std::vector<cv::Point> > squares, cv::Mat& image )
+{
+    for ( int i = 0; i< squares.size(); i++ ) {
+        // draw contour
+        cv::drawContours(image, squares, i, cv::Scalar(255,0,0), 1, 8, std::vector<cv::Vec4i>(), 0, cv::Point());
+        
+        // draw bounding rect
+        cv::Rect rect = boundingRect(cv::Mat(squares[i]));
+        cv::rectangle(image, rect.tl(), rect.br(), cv::Scalar(0,255,0), 2, 8, 0);
+        
+        // draw rotated rect
+        cv::RotatedRect minRect = minAreaRect(cv::Mat(squares[i]));
+        cv::Point2f rect_points[4];
+        minRect.points( rect_points );
+        for ( int j = 0; j < 4; j++ ) {
+            cv::line( image, rect_points[j], rect_points[(j+1)%4], cv::Scalar(0,0,255), 1, 8 ); // blue
+        }
+    }
+}
+
 - (void)processImage:(Mat&)image;
 {
     // Do some OpenCV stuff with the image
@@ -85,9 +105,13 @@ Mat dst, detected_edges;
     
     std::vector<std::vector<cv::Point> > contours;
     std::vector<cv::Vec4i> hierarchy;
+    std::vector<std::vector<cv::Point> > keyboardQuads;
+    std::vector<cv::Point> approxQuad;
+    
     int keyboardIdx = 0;
     double prevArea = 0.0;
     
+    //Determine largest contour (mostly likely the piano)
     cv::findContours( grey_copy, contours, hierarchy, cv::RETR_CCOMP, cv::CHAIN_APPROX_SIMPLE);
     for ( size_t i=0; i<contours.size(); ++i )
     {
@@ -98,8 +122,11 @@ Mat dst, detected_edges;
         }
     }
     
-    cv::drawContours( image, contours, keyboardIdx, Scalar(200,0,0), 1, 8, hierarchy, 0, cv::Point() );
-//    cv::rectangle(image, brect, Scalar(255,0,0));
+    cv::approxPolyDP(Mat(contours[keyboardIdx]), approxQuad, 1, true);
+    keyboardQuads.push_back(approxQuad);
+    
+    debugSquares(keyboardQuads, image);
+    //    cv::rectangle(image, brect, Scalar(255,0,0));
 
 //    cv::cvtColor(image, image, CV_BGR2GRAY);
 //    cvtColor(dst, image, CV_BGR2BGRA);
