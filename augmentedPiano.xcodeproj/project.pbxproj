@@ -29,6 +29,7 @@
 		AB3B781918F4B0C00016DD42 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB3B781518F4B0C00016DD42 /* CoreMedia.framework */; };
 		AB3B781A18F4B0C00016DD42 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB3B781618F4B0C00016DD42 /* CoreVideo.framework */; };
 		AB3B781B18F4B0C00016DD42 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB3B781718F4B0C00016DD42 /* QuartzCore.framework */; };
+		ABC5320C1900505200BD2C81 /* pianoTest2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = ABC5320B1900505200BD2C81 /* pianoTest2.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		AB3B781518F4B0C00016DD42 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		AB3B781618F4B0C00016DD42 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		AB3B781718F4B0C00016DD42 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		ABC5320B1900505200BD2C81 /* pianoTest2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pianoTest2.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,7 @@
 		AB3B77DF18F4ABBE0016DD42 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				ABC5320B1900505200BD2C81 /* pianoTest2.JPG */,
 				AB3B77E018F4ABBE0016DD42 /* augmentedPiano-Info.plist */,
 				AB3B77E118F4ABBE0016DD42 /* InfoPlist.strings */,
 				AB3B77E418F4ABBE0016DD42 /* main.m */,
@@ -265,6 +268,7 @@
 			files = (
 				AB3B77E318F4ABBE0016DD42 /* InfoPlist.strings in Resources */,
 				AB3B77EB18F4ABBE0016DD42 /* Images.xcassets in Resources */,
+				ABC5320C1900505200BD2C81 /* pianoTest2.JPG in Resources */,
 				AB3B780A18F4AC460016DD42 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -503,6 +507,7 @@
 				AB3B780318F4ABBE0016DD42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB3B780418F4ABBE0016DD42 /* Build configuration list for PBXNativeTarget "augmentedPianoTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +516,7 @@
 				AB3B780618F4ABBE0016DD42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
